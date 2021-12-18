@@ -102,7 +102,7 @@ async def start(b, m):
                     )
                     return
             except UserNotParticipant:
-                await b.send_message(
+                await b.send_photo(
                     chat_id=m.chat.id,
                     photo="https://telegra.ph/file/a788a12989e9d3784724e.jpg",
                     text="<i>ʲᵒⁱⁿ ᵐʸ ᵘᵖᵈᵃᵗᵉ ᶜʰᵃⁿⁿᵉˡ ᵗᵒ ᵘˢᵉ ᵐᵉ 🔐</i>",
