@@ -104,10 +104,10 @@ async def start(b, m):
             except UserNotParticipant:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<i>Jᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🔐</i>",
+                    text="<i>ʲᵒⁱⁿ ᵐʸ ᵘᵖᵈᵃᵗᵉ ᶜʰᵃⁿⁿᵉˡ ᵗᵒ ᵘˢᵉ ᵐᵉ 🔐</i>",
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                            InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                            InlineKeyboardButton("𝐽𝑂𝐼𝑁 𝑁𝑂𝑊 🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                             ]]
                     ),
                     parse_mode="HTML"
