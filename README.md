@@ -24,14 +24,12 @@
 
 # ഡിപ്ലോയ് ഓൺ ഹെറോകു
 
-<a href="https://telegram.me/MD_FILE_STREAM_BOT"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 
 # എൻ്റെ ഡെമോ ബോട്ട്
 
-[![https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram](https://telegram.me/MD_FILE_STREAM_BOT)]
-
+<a href="https://telegram.me/MD_FILE_STREAM_BOT"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
 
 ## 🍁 About This Bot :
 
