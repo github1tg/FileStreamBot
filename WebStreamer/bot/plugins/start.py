@@ -27,12 +27,12 @@ HELP_TEXT = """
 <i>𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝙙𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 (𝙊𝙍) 𝙧𝙚𝙥𝙤𝙧𝙩 𝗕𝗨𝗚𝗦</i> <b>: <a href='https://telegram.me/MD_OWNER'>♻️ 🙆 𝙘𝙡𝙞𝙘𝙠 𝙝𝙚𝙧𝙚 ♻️</a></b>"""
 
 ABOUT_TEXT = """
-<b>⚜ Mʏ ɴᴀᴍᴇ : FileStreamX</b>\n
-<b>🔸Vᴇʀꜱɪᴏɴ : <a href='https://telegram.me/AvishkarPatil'>3.0.1</a></b>\n
-<b>🔹Sᴏᴜʀᴄᴇ : <a href='https://github.com/avipatilpro/FileStreamBot'>Cʟɪᴄᴋ Hᴇʀᴇ</a></b>\n
-<b>🔸GitHub : <a href='https://GitHub.com/avipatilpro'>Fᴏʟʟᴏᴡ</a></b>\n
-<b>🔹Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/Avishkarpatil'>Aᴠɪsʜᴋᴀʀ Pᴀᴛɪʟ</a></b>\n
-<b>🔸Lᴀꜱᴛ ᴜᴘᴅᴀᴛᴇᴅ : <a href='https://telegram.me/AvishkarPatil'>[ 11-ᴊᴜʟʏ-21 ] 04:35 PM</a></b>"""
+<b>😉 My Name : TG File Stream Link Bot</b>\n
+<b>🌿 My user name : <a href='https://telegram.me/MD_FILE_STREAM_BOT'>@MD_FILE_STREAM_BOT</a></b>\n
+<b>🌹 Version : <a href='https://telegram.me/MD_OWNER'>3.0.1</a></b>\n
+<b>🌱 GitHub : <a href='https://GitHub.com/github1tg'>Follow</a></b>\n
+<b>🔹 developer : <a href='https://telegram.me/MD_OWNER'>MD OWNER</a></b>\n
+<b>🌴 Support channel : <a href='https://telegram.me/MD_BOTZ'>MD BOTZ</a></b>"""
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
