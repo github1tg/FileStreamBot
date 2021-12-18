@@ -24,7 +24,8 @@
 
 # ഡിപ്ലോയ് ഓൺ ഹെറോകു
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/github1tg/FileStreamBot)
+<a href="https://telegram.me/MD_FILE_STREAM_BOT"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
+
 
 
 # എൻ്റെ ഡെമോ ബോട്ട്
