@@ -104,7 +104,7 @@ async def start(b, m):
             except UserNotParticipant:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    photo="https://i.ibb.co/NKXgXD4/vlmnwosn-0.png",
+                    photo="https://telegra.ph/file/a788a12989e9d3784724e.jpg",
                     text="<i>ʲᵒⁱⁿ ᵐʸ ᵘᵖᵈᵃᵗᵉ ᶜʰᵃⁿⁿᵉˡ ᵗᵒ ᵘˢᵉ ᵐᵉ 🔐</i>",
                     reply_markup=InlineKeyboardMarkup(
                         [[
