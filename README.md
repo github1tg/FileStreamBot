@@ -22,6 +22,9 @@
 
 <hr>
 
+#ഡിപ്ലോയ് ഓൺ ഹെറോകു
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 
 ## 🍁 About This Bot :
