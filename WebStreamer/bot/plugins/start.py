@@ -27,12 +27,12 @@ HELP_TEXT = """
 <i>𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝙙𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 (𝙊𝙍) 𝙧𝙚𝙥𝙤𝙧𝙩 𝗕𝗨𝗚𝗦</i> <b>: <a href='https://telegram.me/MD_OWNER'>♻️ 🙆 𝙘𝙡𝙞𝙘𝙠 𝙝𝙚𝙧𝙚 ♻️</a></b>"""
 
 ABOUT_TEXT = """
-<b>😉 My Name : TG File Stream Link Bot</b>\n
-<b>🌿 My user name : <a href='https://telegram.me/MD_FILE_STREAM_BOT'>@MD_FILE_STREAM_BOT</a></b>\n
-<b>🌹 Version : <a href='https://telegram.me/MD_OWNER'>3.0.1</a></b>\n
-<b>🌱 GitHub : <a href='https://GitHub.com/github1tg'>Follow</a></b>\n
-<b>🔹 developer : <a href='https://telegram.me/MD_OWNER'>MD OWNER</a></b>\n
-<b>🌴 Support channel : <a href='https://telegram.me/MD_BOTZ'>MD BOTZ</a></b>"""
+<b>😉 𝑴𝒚 𝑵𝒂𝒎𝒆 : 𝑻𝑮 𝑭𝒊𝒍𝒆 𝑺𝒕𝒓𝒆𝒂𝒎 𝑳𝒊𝒏𝒌 𝑩𝒐𝒕</b>\n
+<b>🌿 𝑴𝒚 𝒖𝒔𝒆𝒓 𝒏𝒂𝒎𝒆 : <a href='https://telegram.me/MD_FILE_STREAM_BOT'>@𝑴𝑫_𝑭𝑰𝑳𝑬_𝑺𝑻𝑹𝑬𝑨𝑴_𝑩𝑶𝑻</a></b>\n
+<b>🌹 𝑽𝒆𝒓𝒔𝒊𝒐𝒏 : <a href='https://telegram.me/MD_OWNER'>3.0.1</a></b>\n
+<b>🌱 𝑮𝒊𝒕𝑯𝒖𝒃 : <a href='https://GitHub.com/github1tg'>𝑭𝒐𝒍𝒍𝒐𝒘</a></b>\n
+<b>☘ 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 : <a href='https://telegram.me/MD_OWNER'>𝑴𝑫 𝑶𝑾𝑵𝑬𝑹</a></b>\n
+<b>🌴 𝑷𝒓𝒐𝒋𝒆𝒄𝒕 𝒄𝒉𝒂𝒏𝒏𝒆𝒍 : <a href='https://telegram.me/MD_BOTZ'>𝑴𝑫 𝑩𝑶𝑻𝒁</a></b>"""
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
