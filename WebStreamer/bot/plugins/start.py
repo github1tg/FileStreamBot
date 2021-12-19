@@ -61,7 +61,7 @@ ABOUT_BUTTONS = InlineKeyboardMarkup(
 async def cb_data(bot, update):
     if update.data == "home":
         await update.message.edit_text(
-            text=START_TEXT.format(update.from_user.mention),
+            caption=START_CAPTION.format(update.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=START_BUTTONS
         )
