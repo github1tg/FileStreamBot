@@ -9,9 +9,8 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import UserNotParticipant
 db = Database(Var.DATABASE_URL, Var.SESSION_NAME)
 
-START_PHOTO = """
-photo="https://i.ibb.co/NKXgXD4/vlmnwosn-0.png",
-START_TEXT = 
+
+START_CAPTION = """
 <i>Hᴇʏ 🙋,</i>{}\n
 <i>𝐼'𝑚 𝑡𝑒𝑙𝑒𝑔𝑟𝑎𝑚 𝑓𝑖𝑙𝑒𝑠 𝑠𝑡𝑟𝑒𝑎𝑚𝑖𝑛𝑔 𝑏𝑜𝑡 𝑎𝑠 𝑤𝑒𝑙𝑙 𝑑𝑖𝑟𝑒𝑐𝑡 𝑙𝑖𝑛𝑘𝑠 𝑔𝑒𝑛𝑒𝑟𝑎𝑡</i>\n
 <i>𝐶𝑙𝑖𝑐𝑘 𝑜𝑛 ℎ𝑒𝑙𝑝 𝑡𝑜 𝑔𝑒𝑡 𝑚𝑜𝑟𝑒 𝑖𝑛𝑓𝑜𝑟𝑚𝑎𝑡𝑖𝑜𝑛</i>\n
@@ -125,7 +124,7 @@ async def start(b, m):
                 return
         await StreamBot.send_photo(
             photo="https://i.ibb.co/NKXgXD4/vlmnwosn-0.png",
-            caption=format(m.from_user.mention),
+            caption=START_CAPTION.format(m.from_user.mention),
             parse_mode="HTML",
             disable_web_page_preview=True,
             reply_markup=START_BUTTONS
