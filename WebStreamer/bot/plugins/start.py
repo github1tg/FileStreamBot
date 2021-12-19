@@ -125,7 +125,7 @@ async def start(b, m):
                     disable_web_page_preview=True)
                 return
         await m.reply_photo(
-            photo="https://i.ibb.co/NKXgXD4/vlmnwosn-0.png",
+            photo=START_PHOTO.format("https://i.ibb.co/NKXgXD4/vlmnwosn-0.png"),
             caption=START_CAPTION.format(m.from_user.mention),
             parse_mode="HTML",
             disable_web_page_preview=True,
