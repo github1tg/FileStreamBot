@@ -125,7 +125,7 @@ async def start(b, m):
                 return
         await StreamBot.send_photo(
             photo="https://i.ibb.co/NKXgXD4/vlmnwosn-0.png",
-            caption=CAPTION_TEXT.format(m.from_user.mention),
+            caption=START_CAPTION.format(m.from_user.mention),
             parse_mode="HTML",
             disable_web_page_preview=True,
             reply_markup=CAPTION_BUTTONS
