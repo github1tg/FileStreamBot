@@ -9,7 +9,8 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import UserNotParticipant
 db = Database(Var.DATABASE_URL, Var.SESSION_NAME)
 
-
+START_PHOTO = """
+<i>https://i.ibb.co/NKXgXD4/vlmnwosn-0.png</i>
 START_CAPTION = """
 <i>Hᴇʏ 🙋,</i>{}\n
 <i>𝐼'𝑚 𝑡𝑒𝑙𝑒𝑔𝑟𝑎𝑚 𝑓𝑖𝑙𝑒𝑠 𝑠𝑡𝑟𝑒𝑎𝑚𝑖𝑛𝑔 𝑏𝑜𝑡 𝑎𝑠 𝑤𝑒𝑙𝑙 𝑑𝑖𝑟𝑒𝑐𝑡 𝑙𝑖𝑛𝑘𝑠 𝑔𝑒𝑛𝑒𝑟𝑎𝑡</i>\n
