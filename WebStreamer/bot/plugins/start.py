@@ -62,6 +62,7 @@ ABOUT_BUTTONS = InlineKeyboardMarkup(
 async def cb_data(bot, update):
     if update.data == "home":
         await update.message.edit_photo(
+            chat_id=m.chat.id,
             photo=START_PHOTO.formate("https://i.ibb.co/NKXgXD4/vlmnwosn-0.png"),
             caption=START_CAPTION.format(update.from_user.mention),
             disable_web_page_preview=True,
@@ -124,7 +125,8 @@ async def start(b, m):
                     parse_mode="HTML",
                     disable_web_page_preview=True)
                 return
-        await m.reply_text(
+        await m.send_photo(
+            chat_id=m.chat.id,
             photo=START_PHOTO.format("https://i.ibb.co/NKXgXD4/vlmnwosn-0.png"),
             caption=START_CAPTION.format(m.from_user.mention),
             parse_mode="HTML",
