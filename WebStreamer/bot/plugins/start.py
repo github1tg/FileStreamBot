@@ -105,7 +105,7 @@ async def start(b, m):
                 await StreamBot.send_photo(
                     chat_id=m.chat.id,
                     photo="https://i.ibb.co/NKXgXD4/vlmnwosn-0.png",
-                    text="<i>Jᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🔐</i>",
+                    caption="<i>Jᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🔐</i>",
                     reply_markup=InlineKeyboardMarkup(
                         [[
                             InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
