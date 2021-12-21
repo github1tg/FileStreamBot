@@ -36,23 +36,23 @@ ABOUT_TEXT = """
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
-        InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('🤖 𝙷𝙴𝙻𝙿', callback_data='help'),
+        InlineKeyboardButton('⚙ 𝙰𝙱𝙾𝚄𝚃', callback_data='about'),
+        InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴', callback_data='close')
         ]]
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
-        InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('🏡 𝙷𝙾𝙼𝙴', callback_data='home'),
+        InlineKeyboardButton('⚙ 𝙰𝙱𝙾𝚄𝚃', callback_data='about'),
+        InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴', callback_data='close')
         ]]
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
-        InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
-        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('🏡 𝙷𝙾𝙼𝙴', callback_data='home'),
+        InlineKeyboardButton('🤖 𝙷𝙴𝙻𝙿', callback_data='help'),
+        InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴', callback_data='close')
         ]]
     )
 
